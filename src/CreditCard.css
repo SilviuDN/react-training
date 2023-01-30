@@ -1,0 +1,25 @@
+article{
+    padding: 2em 5em;
+    width: max-content;
+    border-radius: 5px;
+}
+
+.creditCard{
+    width: 100%;
+    text-align: center;    
+    display: flex;
+    flex-direction:column;   
+}
+
+.alignRight{
+    width: 5em;
+    align-self: end;
+}
+
+.alignLeft{
+    align-self: start;
+}
+
+.cardNumber{
+    font-size: 2em;
+}
