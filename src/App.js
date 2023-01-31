@@ -1,12 +1,19 @@
 import './App.css'
 import IdCard from './IdCard';
-import Greeting from './Greeting';
-import Random from './Random';
-import BoxColor from './BoxColor';
-import CreditCard from './CreditCard';
-import Rating from './Rating';
-import DriverCard from './DriverCard';
-import LikeButton from './LikeButton';
+// import Greeting from './Greeting';
+// import Random from './Random';
+// import BoxColor from './BoxColor';
+// import CreditCard from './CreditCard';
+// import Rating from './Rating';
+// import DriverCard from './DriverCard';
+// import LikeButton from './LikeButton';
+// import ClickablePicture from './ClickablePicture';
+// import Dice from './Dice';
+// import Carousel from './Carousel';
+// import NumbersTable from './NumbersTable';
+import FaceBook from './FaceBook';
+
+
 
 function App() {
   return (
@@ -33,9 +40,15 @@ function App() {
           birth={new Date("1988-05-11")}
           picture="https://randomuser.me/api/portraits/women/44.jpg"
         />
+
+        <IdCard
+          lastName='Delores '
+          firstName='Obrien'
+          picture="https://randomuser.me/api/portraits/women/44.jpg"
+        />
       </section>
 
-      <section className="iteration-1">
+      {/* <section className="iteration-1">
         <h2 className="iteration-title">Greeting</h2>
 
         <Greeting lang="de">Ludwig</Greeting>
@@ -120,6 +133,41 @@ function App() {
       <section className="iteration-8">
         <h2>LikeButton</h2>
         <LikeButton /> <LikeButton />
+      </section>
+
+      <section className="iteration-9">
+        <h2>ClickablePicture</h2>
+        <ClickablePicture
+          img='/img/persons/maxence.png'
+          imgClicked='/img/persons/maxence-glasses.png'
+        />
+      </section>
+
+      <section className="iteration-10">
+        <h2>Dice</h2>
+        <Dice/>
+      </section>
+
+      <section className="iteration-11">
+        <h2>Carousel</h2>
+        <Carousel
+        imgs={[
+          'https://randomuser.me/api/portraits/women/1.jpg',
+          'https://randomuser.me/api/portraits/men/1.jpg',
+          'https://randomuser.me/api/portraits/women/2.jpg',
+          'https://randomuser.me/api/portraits/men/2.jpg'
+        ]}/>
+      </section>
+
+      <section className="iteration-12">
+        <h2>NumbersTable</h2>
+        <NumbersTable limit={12} />
+        <NumbersTable limit={220} />
+      </section> */}
+      
+      <section className="iteration-13">
+        <h2>FaceBook</h2>
+        <FaceBook/>
       </section>
 
 

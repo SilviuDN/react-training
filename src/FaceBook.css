@@ -1,0 +1,26 @@
+.facebook-article {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.facebook-article ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.facebook-article li {
+    width: 33%;
+}
+
+.country-buttons li {
+    display: block;
+    width: 120px;
+}
+
+.country-buttons button {
+    width: 90%;
+}
+
